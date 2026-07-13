@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\kafkaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:kafkaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\models\\paymentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:models\\paymentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\models\\eventresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:models\\eventresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\models\\userevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:models\\userevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\ikafkaproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:ikafkaproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\models\\movieevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB95ED-759E-4749-A044-61F698F49A3E}|Events.csproj|solutionrelative:models\\movieevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 582,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KafkaConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\KafkaConsumer.cs",
+              "RelativeDocumentMoniker": "KafkaConsumer.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\KafkaConsumer.cs",
+              "RelativeToolTip": "KafkaConsumer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwC0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T19:20:39.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:51:15.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorModel.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\ErrorModel.cs",
+              "RelativeToolTip": "Models\\ErrorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T16:18:41.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:46:18.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\PaymentEvent.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentEvent.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\PaymentEvent.cs",
+              "RelativeToolTip": "Models\\PaymentEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:44:09.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\UserEvent.cs",
+              "RelativeDocumentMoniker": "Models\\UserEvent.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\UserEvent.cs",
+              "RelativeToolTip": "Models\\UserEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:41:51.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovieEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\MovieEvent.cs",
+              "RelativeDocumentMoniker": "Models\\MovieEvent.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\MovieEvent.cs",
+              "RelativeToolTip": "Models\\MovieEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:38:05.471Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-12T19:42:33.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-12T18:45:41.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwGoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T15:56:43.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\EventResponse.cs",
+              "RelativeDocumentMoniker": "Models\\EventResponse.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Models\\EventResponse.cs",
+              "RelativeToolTip": "Models\\EventResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T16:10:07.343Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IKafkaProducer.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\IKafkaProducer.cs",
+              "RelativeDocumentMoniker": "IKafkaProducer.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\IKafkaProducer.cs",
+              "RelativeToolTip": "IKafkaProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T18:37:04.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Producer.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Producer.cs",
+              "RelativeDocumentMoniker": "Producer.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\events\\Producer.cs",
+              "RelativeToolTip": "Producer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T16:45:34.036Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ba2fc7a-405e-5c33-ae0c-f01f6ad6d6d7}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
