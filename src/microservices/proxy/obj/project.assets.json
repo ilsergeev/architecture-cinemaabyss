@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Proxy.csproj",
+      "projectUniqueName": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Proxy.csproj",
       "projectName": "Proxy",
-      "projectPath": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Proxy.csproj",
+      "projectPath": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Proxy.csproj",
       "packagesPath": "C:\\Users\\ilay1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\obj\\",
+      "outputPath": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

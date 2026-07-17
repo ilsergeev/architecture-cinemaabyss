@@ -36,6 +36,10 @@ builder.Services.AddTransient<IProxyFacade>(sp =>
 var app = builder.Build();
 
 app.UseRouting();
-app.UseEndpoints(endpoints => endpoints.MapControllers());
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapGet("/api/proxy/health", () => Results.Ok(new { status = true }));
+    endpoints.MapControllers();
+});
 
 app.Run();

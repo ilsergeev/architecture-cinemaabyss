@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\",
+  "WorkspaceRootPath": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\cinemabass\\proxy\\proxy\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\cinemabass\\proxy\\proxy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\cinemabass\\proxy\\proxy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\cinemabass\\proxy\\proxy\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\cinemabass\\proxy\\proxy\\iproxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\iproxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:iproxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\cinemabass\\proxy\\proxy\\proxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\proxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:proxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\cinemabass\\proxy\\proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 582,
-          "SelectedChildIndex": 16,
+          "DockedWidth": 412,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,11 +106,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Dockerfile",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Dockerfile",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -119,81 +119,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-13T19:22:42.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T19:22:42.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Program.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T18:42:11.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IProxyFacade.cs",
-              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\IProxyFacade.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\IProxyFacade.cs",
               "RelativeDocumentMoniker": "IProxyFacade.cs",
-              "ToolTip": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\IProxyFacade.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\IProxyFacade.cs",
               "RelativeToolTip": "IProxyFacade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T18:38:54.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-13T18:31:13.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProxyFacade.cs",
-              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\ProxyFacade.cs",
-              "RelativeDocumentMoniker": "ProxyFacade.cs",
-              "ToolTip": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\ProxyFacade.cs",
-              "RelativeToolTip": "ProxyFacade.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T18:13:24.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T18:38:54.481Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-13T18:31:13.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProxyFacade.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\ProxyFacade.cs",
+              "RelativeDocumentMoniker": "ProxyFacade.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\ProxyFacade.cs",
+              "RelativeToolTip": "ProxyFacade.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T18:13:24.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProxyController.cs",
-              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Controllers\\ProxyController.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Controllers\\ProxyController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProxyController.cs",
-              "ToolTip": "C:\\Users\\ilay1\\studing\\cinemabass\\Proxy\\Proxy\\Controllers\\ProxyController.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Controllers\\ProxyController.cs",
               "RelativeToolTip": "Controllers\\ProxyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T18:06:39.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T18:06:39.987Z"
             },
             {
               "$type": "Bookmark",
@@ -202,7 +197,7 @@
           ]
         },
         {
-          "DockedWidth": 233,
+          "DockedWidth": 403,
           "SelectedChildIndex": -1,
           "Children": [
             {
