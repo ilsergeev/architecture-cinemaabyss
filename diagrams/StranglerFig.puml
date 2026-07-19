@@ -1,0 +1,48 @@
+@startuml
+title Система онлайн-кинотеатр «Кинобездна» Strangler Fig
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(User, "Пользователь")
+
+Container(Monolith, "Monolith", "Go", "Монолит приложения")
+Container(ProxyService, "Proxy", "C#", "Реверс прокси для маршрутизации запросов")
+Container(MoviesService, "MoviesService", "Go", "Микросервис управления метаданными о фильме")
+Container(EventService, "Events", "C#", "MVP сервис работы с Kafka")
+
+ContainerDb(MonolithDB, "Monolith DB", "PostgreSQL", "Данные монолита")
+ContainerDb(MoviesDB, "Movie DB", "PostgreSQL", "Метаданные о фильмах")
+ContainerDb(S3, "S3", "Объектное хранилище")
+
+System_Ext(ExternalContentProvider, "Онлайн-кинотеатры")
+System_Ext(ExternalLLM, "Внешняя рекомендательная система")
+System_Ext(ExternalPaymentsProvider, "Платёжные системы")
+
+
+ContainerQueue(KafkaMessageBus, "Kafka Message Bus", "Kafka", "Событийная шина: доменные события")
+ContainerQueue(RabbitMessageQueue, "Rabbit Message Queue", "RabbitMQ", "Очередь событий")
+
+Rel(Monolith, MonolithDB, "Читает/пишет", "SQL")
+Rel(MoviesService, MoviesDB, "Читает/пишет", "SQL")
+
+Rel(User, ProxyService, "Получает контент")
+
+Rel(ProxyService, Monolith, "Запросы", "REST/HTTPS")
+Rel(ProxyService, MoviesService, "Запросы", "REST/HTTPS")
+Rel(ProxyService, EventService, "Запросы", "REST/HTTPS")
+
+Rel(EventService, KafkaMessageBus, "Публикует события", "async")
+Rel(KafkaMessageBus, EventService, "Читает события", "async")
+
+Rel(Monolith, ExternalPaymentsProvider, "Проводит платежные операции", "REST/HTTPS")
+Rel(Monolith, ExternalContentProvider, "Получает контент от внешних провайдеров", "REST/HTTPS")
+Rel(Monolith, S3, "Получает данные", "REST/HTTPS")
+
+
+Rel(Monolith, RabbitMessageQueue, "Отсылает данные для внешней рекомендательной системы", "async")
+Rel(RabbitMessageQueue, Monolith, "Получает данные от внешней рекомендательной системы", "async")
+
+Rel(RabbitMessageQueue, ExternalLLM, "Получает данные от монолита", "async")
+Rel(ExternalLLM, RabbitMessageQueue, "Отсылает данные в монолит", "async")
+
+
+@enduml

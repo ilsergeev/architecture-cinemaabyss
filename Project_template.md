@@ -9,6 +9,10 @@
 
 Исходник: [C4_Container_ToBe.puml](./diagrams/C4_Container_ToBe.puml)
 
+![C4 Диаграмма Strangler Fig](./diagrams/StranglerFig.png)
+
+Исходник: [StranglerFig.puml](./diagrams/StranglerFig.puml)
+
 # Задание 2
 
 ### 1. Proxy
