@@ -176,7 +176,7 @@ ingress:
   hosts:
     - host: cinemaabyss.example.com
       paths:
-        - path: /api/movies
+        - path: /
           pathType: Prefix
           service: proxy-service
           port: 8000
