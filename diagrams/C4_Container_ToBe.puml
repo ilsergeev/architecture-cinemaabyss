@@ -1,0 +1,125 @@
+@startuml
+title Система онлайн-кинотеатр «Кинобездна» To-Be
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(User, "Пользователь")
+Person(ContentManager, "Контент-менеджер")
+
+Container(WebApp, "Web Application", "React/Vue.js", "Пользовательский интерфейс")
+Container(MobileApp, "Mobile Application", "React Native", "Мобильное приложение")
+Container(SmartTVApp, "Smart TV Application", "React native", "Смарт-ТВ приложение")
+
+Container(APIGateway, "API Gateway", "Nginx", "Единая точка входа, маршрутизация, TLS, rate limit")
+
+Container(BFF, "BFF (Mobile / Desktop / TV)", "Go", "Три отдельных BFF под каждый тип клиента: агрегация страниц, свой объём данных. Показаны единым блоком для читаемости")
+
+Container(BillingService, "Биллинг", "Go", "Управление платежами")
+ContainerDb(BillingDB, "Billing DB", "PostgreSQL", "Платежи, транзакции")
+
+Container(IdentityService, "Авторизация и аутентификация", "Go", "Управление авторизацией и аутентификацией")
+ContainerDb(IdentityDB, "Identity DB", "PostgreSQL", "Учетные данные, роли, сессии пользователей")
+
+Container(UserService, "Профиль пользователя", "Go", "Управление пользователем")
+ContainerDb(UserDB, "User DB", "PostgreSQL", "Профиль пользователя")
+
+Container(VideoService, "Доставщик контента", "Go", "Доставка контента пользователя и проверка доступа пользователя перед контента")
+ContainerDb(VideoDB, "Video DB", "PostgreSQL", "Сессии воспроизведения, прогресс просмотра")
+
+Container(ExternalVideoService, "Интеграция (ACL) с внешними провайдерами", "Go", "Получение потока/ссылки, синхронизация каталогов")
+ContainerDb(ExternalVideoDB, "ExternalVideo DB", "PostgreSQL", "Синхронизация, данные провайдеров")
+
+Container(RecommendationService, "Рекомендательная система", "Go", "Построение рекомендаций, взаимодействие с внешним LLM")
+ContainerDb(RecommendationDB, "Recommendation DB", "PostgreSQL", "Профиль предпочтений")
+
+Container(UserActionService, "Действия пользователей", "Go", "Хранение действий/активности пользователя")
+ContainerDb(UserActionDB, "UserAction DB", "PostgreSQL", "Действия пользователя")
+
+Container(MoviesService, "Метаданные о фильмах", "Go", "Хранение метаднных о фильмах")
+ContainerDb(MoviesDB, "Movie DB", "PostgreSQL", "Метаданные о фильмах")
+
+Container(SubscriptionService, "Подписки", "Go", "Управление правами доступа к контенту")
+ContainerDb(SubscriptionDB, "Subscription DB", "PostgreSQL", "Подписки")
+
+Container(LoyaltyService, "Система лояльности", "Go", "Управление внутренней системой лояльности + ACL к внешним провайдерам")
+ContainerDb(LoyaltyDB, "Loyalty DB", "PostgreSQL", "Описание программы лояльности")
+
+Container(CatalogSearch, "Каталог/Поиск", "Elasticsearch/Go", "Read-модель для быстрого поиска и листания каталога, наполняется событиями из Movies")
+
+ContainerDb(S3, "Object Storage", "S3", "Свой контент (эксклюзивы), превью, постеры, трейлеры")
+
+System_Ext(ExternalContentProvider, "Внешние провайдеры контента", "Онлайн-кинотеатры, открытые источники")
+System_Ext(ExternalLLM, "Внешний LLM", "Система рекомендации")
+System_Ext(ExternalPaymentsProvider, "Платёжные системы/шлюзы")
+System_Ext(ExternalLoyaltyProvider, "Внешние программы лояльности")
+
+
+ContainerQueue(Message_Bus, "Message Bus", "Kafka", "Событийная шина: доменные события")
+
+' ==================== Db->Services Relation ====================
+Rel(BillingService, BillingDB, "Читает/пишет", "SQL")
+Rel(IdentityService, IdentityDB, "Читает/пишет", "SQL")
+Rel(UserService, UserDB, "Читает/пишет", "SQL")
+Rel(VideoService, VideoDB, "Читает/пишет", "SQL")
+Rel(ExternalVideoService, ExternalVideoDB, "Читает/пишет", "SQL")
+Rel(RecommendationService, RecommendationDB, "Читает/пишет", "SQL")
+Rel(UserActionService, UserActionDB, "Читает/пишет", "SQL")
+Rel(MoviesService, MoviesDB, "Читает/пишет", "SQL")
+Rel(SubscriptionService, SubscriptionDB, "Читает/пишет", "SQL")
+Rel(LoyaltyService, LoyaltyDB, "Читает/пишет", "SQL")
+
+' ==================== User Layer ====================
+Rel(User, WebApp, "Получает контент, управляет подписками, выбирает избранное")
+Rel(User, MobileApp, "Получает контент, управляет подписками, выбирает избранное")
+Rel(User, SmartTVApp, "Получает контент, управляет подписками, выбирает избранное")
+
+Rel(ContentManager, WebApp, "Управляет контентом")
+
+' ==================== ApiGateWay Layer ====================
+Rel(WebApp, APIGateway, "Запросы", "REST/HTTPS")
+Rel(MobileApp, APIGateway, "Запросы", "REST/HTTPS")
+Rel(SmartTVApp, APIGateway, "Запросы", "REST/HTTPS")
+
+Rel(APIGateway, BFF, "Маршрутизация по типу клиента (mobile/desktop/tv)", "REST/HTTPS")
+
+Rel(APIGateway, IdentityService, "Проверяет токены", "REST/HTTPS")
+Rel(APIGateway, VideoService, "Загружает контент", "REST/HTTPS")
+Rel(APIGateway, MoviesService, "Добавляет метаданные", "REST/HTTPS")
+
+' ==================== BFF Layer ====================
+Rel(BFF, CatalogSearch, "Работа с каталогом", "REST/HTTPS")
+Rel(BFF, RecommendationService, "Получение персональных рекомендаций", "REST/HTTPS")
+Rel(BFF, MoviesService, "Детали конкретного фильма", "REST/HTTPS")
+Rel(BFF, SubscriptionService, "Отметки о правах доступа", "REST/HTTPS")
+Rel(BFF, UserService, "Получение данных пользователя", "REST/HTTPS")
+Rel(BFF, VideoService, "Обложки, превью, запрос на воспроизведение", "REST/HTTPS")
+Rel(BFF, BillingService, "Инициация платежа", "REST/HTTPS")
+Rel(BFF, LoyaltyService, "Баланс/статус", "REST/HTTPS")
+Rel(BFF, UserActionService, "История действий пользователя", "REST/HTTPS")
+
+' ==================== Service Layer ====================
+Rel(VideoService, SubscriptionService, "Проверка доступности контента", "REST/HTTPS")
+Rel(VideoService, S3, "Чтение/запись своего контента", "REST/HTTPS")
+Rel(VideoService, ExternalVideoService, "Получение ссылки, потока на чужой контент", "REST/HTTPS")
+Rel(ExternalVideoService, ExternalContentProvider, "ACL: получение ссылки/потока чужого контента", "REST/HTTPS")
+Rel(RecommendationService, ExternalLLM, "ACL к внешнему LLM (ранжирование)", "REST/HTTPS")
+Rel(BillingService, ExternalPaymentsProvider, "ACL к внешним провайдерам оплаты", "REST/HTTPS")
+Rel(LoyaltyService, ExternalLoyaltyProvider, "ACL к внешней лояльности", "REST/HTTPS")
+
+' ==================== Bus Layer ====================
+Rel(VideoService, Message_Bus, "Публикует ContentViewed", "async")
+Rel(BFF, Message_Bus, "Публикует действия (лайк/клик)", "async")
+Rel(Message_Bus, UserActionService, "Действия для хранения", "async")
+Rel(Message_Bus, RecommendationService, "Действия для модели", "async")
+
+Rel(ExternalContentProvider, ExternalVideoService, "Изменение каталога", "webhook")
+Rel(ExternalVideoService, Message_Bus, "Событие синхронизации изменений во внешнем источнике контента", "async")
+Rel(Message_Bus, MoviesService, "Обновление метаданных", "async")
+Rel(MoviesService, Message_Bus, "Событие об обновлении метаданных", "async")
+Rel(Message_Bus, CatalogSearch , "Переиндексация", "async")
+
+Rel(BillingService, Message_Bus, "Событие платеж совершен", "async")
+Rel(Message_Bus, SubscriptionService, "Создание прав доступа(покупка, подписка)", "async")
+Rel(Message_Bus, LoyaltyService, "Начисление баллов (PaymentCompleted)", "async")
+
+
+@enduml

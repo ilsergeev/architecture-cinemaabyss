@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\iproxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:iproxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|c:\\users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\proxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D640F3BD-5189-4BDD-BB36-73202F136922}|Proxy.csproj|solutionrelative:proxyfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 412,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-13T19:24:31.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-13T19:22:42.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T18:42:11.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProxyFacade.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\IProxyFacade.cs",
+              "RelativeDocumentMoniker": "IProxyFacade.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\IProxyFacade.cs",
+              "RelativeToolTip": "IProxyFacade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T18:38:54.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-13T18:31:13.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProxyFacade.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\ProxyFacade.cs",
+              "RelativeDocumentMoniker": "ProxyFacade.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\ProxyFacade.cs",
+              "RelativeToolTip": "ProxyFacade.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T18:13:24.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProxyController.cs",
+              "DocumentMoniker": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Controllers\\ProxyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProxyController.cs",
+              "ToolTip": "C:\\Users\\ilay1\\studing\\architecture-cinemaabyss\\src\\microservices\\proxy\\Controllers\\ProxyController.cs",
+              "RelativeToolTip": "Controllers\\ProxyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T18:06:39.987Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 403,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ba2fc7a-405e-5c33-ae0c-f01f6ad6d6d7}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,13 @@
 1. Спроектируйте to be архитектуру КиноБездны, разделив всю систему на отдельные домены и организовав интеграционное взаимодействие и единую точку вызова сервисов.
 Результат представьте в виде контейнерной диаграммы в нотации С4.
 Добавьте ссылку на файл в этот шаблон
-[ссылка на файл](ссылка)
+![C4 Диаграмма контейнеров ToBe](./diagrams/C4_Container_ToBe.png)
+
+Исходник: [C4_Container_ToBe.puml](./diagrams/C4_Container_ToBe.puml)
+
+![C4 Диаграмма Strangler Fig](./diagrams/StranglerFig.png)
+
+Исходник: [StranglerFig.puml](./diagrams/StranglerFig.puml)
 
 # Задание 2
 
@@ -58,6 +64,12 @@
 
 Необходимые тесты для проверки этого API вызываются при запуске npm run test:local из папки tests/postman 
 Приложите скриншот тестов и скриншот состояния топиков Kafka из UI http://localhost:8090 
+
+![Скриншот tests](./screenshots/Task2_Test_ScreenShot.png)
+![Скриншот topic](./screenshots/Task2_Topics.png)
+![Скриншот User-Events topic](./screenshots/Task_2_Topic_UserEvents.png)
+![Скриншот Movie-Events topic](./screenshots/Task2_Topic_MovieEvent.png)
+![Скриншот Payment_Events topic](./screenshots/Task2_Topic_PaymentEvent.png)
 
 # Задание 3
 
@@ -275,6 +287,10 @@ cat .docker/config.json | base64
 #### Шаг 3
 Добавьте сюда скриншота вывода при вызове https://cinemaabyss.example.com/api/movies и  скриншот вывода event-service после вызова тестов.
 
+![Скриншот Ingress](./screenshots/Task_3_Up_Ingress.png)
+![Скриншот KuberTests](./screenshots/Task3_Kuber_Tests.png)
+![Скриншот Event-Service pod logs](./screenshots/Task_3_Event_Service.png)
+
 
 # Задание 4
 Для простоты дальнейшего обновления и развертывания вам как архитектуру необходимо так же реализовать helm-чарты для прокси-сервиса и проверить работу 
@@ -349,6 +365,9 @@ minikube tunnel
 Потом вызовите 
 https://cinemaabyss.example.com/api/movies
 и приложите скриншот развертывания helm и вывода https://cinemaabyss.example.com/api/movies
+
+![Скриншот Helm](./screenshots/Task4_Helm.png)
+![Скриншот UpHelmCall](./screenshots/Task_4_CallOnHelm.png)
 
 ## Удаляем все
 

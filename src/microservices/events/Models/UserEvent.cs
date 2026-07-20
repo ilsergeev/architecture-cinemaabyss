@@ -1,0 +1,14 @@
+﻿using System.Text.Json.Serialization;
+
+namespace Events.Models
+{
+    public class UserEvent
+    {
+        [JsonPropertyName("user_id")]
+        public int UserId { get; set; }
+        public string? UserName { get; set; }
+        public string? Email { get; set; }
+        public string Action { get; set; } = null!;
+        public DateTime Timestamp { get; set; }
+    }
+}

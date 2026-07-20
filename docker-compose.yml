@@ -89,13 +89,13 @@ services:
       dockerfile: Dockerfile
     container_name: cinemaabyss-events-service
     depends_on:
-      - postgres
       - kafka
     ports:
       - "8082:8082"
     environment:
-      PORT: 8082
-      KAFKA_BROKERS: kafka:9092
+      ASPNETCORE_URLS: http://+:8082
+      Kafka__BootstrapServers: kafka:9092
+      Kafka__GroupId: events-service
     networks:
       - cinemaabyss-network
 
